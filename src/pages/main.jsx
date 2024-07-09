@@ -5,15 +5,15 @@ import "../stylesheet/pagesStyle/main.css"
 
 
 export default function Main() {
- 
 
+    
 
 
     return (
         <>
         <div className="hero_section">
             <div className="main_page">
-            <Services/>
+            <Services/> 
             </div>
         </div>
         </>

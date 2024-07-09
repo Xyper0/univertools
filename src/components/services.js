@@ -19,14 +19,14 @@ import '../stylesheet/compsStyle/services.css';
 export default function Services () {
     const [searchTerm, setSearchTerm] = useState('');
     const [services, setServices] = useState([
-        { to: 'tools/age', icon: <TbMoodKidFilled color='white' size={50} />, label: 'حساب العمر' },
-        { to: 'tools/balanced', icon: <AiOutlinePercentage color='white' size={50} />, label: 'حساب النسبة الموزونة' },
-        { to: 'tools/calories', icon: <IoBody color='white' size={50} />, label: 'حساب السعرات الحرارية' },
-        { to: 'tools/two-dates', icon: <IoCalendarSharp color='white' size={50} />, label: 'حساب الفرق بين تاريخين' },
-        { to: 'tools/days', icon: <BsCalendar2DayFill color='white' size={50} />, label: 'حساب عدد الايام المتبقية' },
-        { to: 'tools/file-format', icon: <FaFile color='white' size={50} />, label: 'تحويل تنسيق ملف' },
-        { to: 'tools/qrcode', icon: <BsQrCode color='white' size={50} />, label: 'QrCode إنشاء' },
-        { to: 'tools/barcode', icon: <CiBarcode color='white' size={50} />, label: 'BarCode إنشاء' },
+        { to: 'tools/age', icon: <TbMoodKidFilled size={50} />, label: 'حساب العمر' },
+        { to: 'tools/balanced', icon: <AiOutlinePercentage  size={50} />, label: 'حساب النسبة الموزونة' },
+        { to: 'tools/calories', icon: <IoBody  size={50} />, label: 'حساب السعرات الحرارية' },
+        { to: 'tools/two-dates', icon: <IoCalendarSharp size={50} />, label: 'حساب الفرق بين تاريخين' },
+        { to: 'tools/days', icon: <BsCalendar2DayFill  size={50} />, label: 'حساب عدد الأيام المتبقية' },
+        { to: 'tools/file-format', icon: <FaFile size={50} />, label: 'تحويل تنسيق الملف' },
+        { to: 'tools/qrcode', icon: <BsQrCode  size={50} />, label: 'إنشاء رمز الاستجابة السريعة (QR Code)' },
+        { to: 'tools/barcode', icon: <CiBarcode  size={50} />, label: 'إنشاء الباركود' },
     ]);
 
     const [filteredServices, setFilteredServices] = useState([]);
