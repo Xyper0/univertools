@@ -1,0 +1,11 @@
+.hero_section {
+    background-color: var(--bg-color);
+    height:auto;
+}
+
+.main_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}

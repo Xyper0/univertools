@@ -1,0 +1,116 @@
+.navbar {
+    width:100%; 
+    background-color: var(--navbar-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar_logo {
+    padding-left:50px;
+    color: var(--font-color);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Mulish' , sans-serif;
+    font-weight: 700;
+}
+
+
+.light {
+    color: blue;
+}
+
+.dark {
+    color:brown
+}
+
+.navbar_li ul {
+    display: flex;
+}
+
+.navbar_li ul li {
+    list-style-type: none;
+}
+
+.navbar_li ul li a{
+    display: block;
+    color:var(--before-font-color); 
+    font-size: 15px;
+    padding: 10px 25px;
+    margin: 0 5px;
+    text-decoration: none;
+    font-family: "Almarai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition:all 0.3s ease-in-out;
+    
+}
+
+
+.navbar_li ul li a:hover {
+    color:var(--hover-font-color)
+}
+
+.active-navbar {
+    color: var(--font-color)!important;
+}
+
+.navbar .hamburger-react {
+    display: none;
+    color:var(--hamburger-color)
+}
+
+
+
+
+
+@media only screen and (max-width:900px) {
+    .navbar { 
+        padding-top: 12px;
+        background-color: var(--navbar-color);
+    }
+    .navbar .hamburger-react {
+        display: block;
+        padding-right:10px
+    }
+
+    .navbar .navbar_logo {
+        padding-left:30px;
+    }
+
+    .navbar_li {
+        height: 0;
+        position: absolute;
+        top: 75px;
+        right: 0px;
+        width: 100vw;
+        background-color: var(--navbar-color);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    .navbar_li ul {
+        display: block;
+        width:fit-content;
+        margin:50px auto 0 auto;
+        text-align: center;
+        transition:0.5s;
+        opacity: 0;
+    }
+
+    .navbar ul li a  {
+        margin-bottom: 12px;
+        padding-right: 50px;
+
+    }
+    .navbar_li.responsive-active {
+        height: 450px;
+    }
+
+    .navbar_li.responsive-active ul {
+        opacity: 1;
+    }
+    .nav_li_center {
+        text-align: center;
+    }
+
+}

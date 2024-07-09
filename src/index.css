@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+:root {
+  --bg-color:#f2f2f2;
+  --font-color:black;
+  --before-font-color:#494949;
+  --before-mode-color:#808080;
+  --hover-font-color:black;
+  --navbar-color:#f2f2f2;
+  --hamburger-color:black;
+  --secondary-color:#d3cbcb;
+}
+
+/*
+0c0f1d
+*/
+
+
+[data-theme="dark"] {
+  --bg-color:hsl(240 10% 3.9%);
+  --font-color:white;
+  --before-font-color:rgba(139, 138, 138, 0.5);
+  --before-mode-color:#808080;
+  --hover-font-color:white;
+  --navbar-color:hsl(240 10% 3.9%);
+  --hamburger-color:white;
+  --secondary-color:hsl(240, 10%, 8%);
+}
+
+h1 {
+  color:var(--font-color);
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 2px;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--before-font-color);
+  border-radius: 10px;
+  height: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Error 404 style */
+
+.error404 {
+  text-align: center;
+}
+.error404 h1 {
+  font-family: 'almarai',sans-serif;
+  font-weight: 300;
+}
+
+.error404 p {
+  color: var(--before-font-color);
+  font-family: 'almarai',sans-serif;
+  font-weight: 200;
+
+}
+
+
+.error404 button {
+  border:none;
+  color: var(--before-font-color);
+  border-radius: 8px;
+  font-family: 'almarai',sans-serif;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.5s ease;
+}
+
+
+.error404 button:hover {
+  color:var(--font-color)
+}
+
+
+
+
+.alerts {
+  width: 100%;
+}
+
+
+.alert-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.alert-red { 
+  background-color: var(--secondary-color);
+  width:250px;
+  height: 50px;
+  border-color:var(--before-font-color);
+  border-style:solid;
+  border-width: 1px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+
+.alert_icon {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.alert_text { 
+  width: 195px;
+  display: flex;
+  align-items: center;
+}
+
+.alert_text a {
+  font-family: 'almarai' , sans-serif;
+  font-size: 14px;
+  color: var(--font-color)!important;
+}
+

@@ -1,0 +1,11 @@
+.theme_div button {
+    background: none;
+  border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: 20px;
+}
+
+.theme_div button:hover {
+    background-color:var(--before-mode-color);
+}
