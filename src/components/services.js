@@ -11,6 +11,8 @@ import { BsQrCode } from "react-icons/bs";
 import { CiBarcode } from "react-icons/ci";
 import Alert from '@mui/material/Alert';
 import {AlertRed} from './alerts'
+import { IoSearchSharp } from "react-icons/io5";
+
 
 
 import '../stylesheet/compsStyle/services.css';
@@ -52,7 +54,7 @@ export default function Services () {
                 <AlertRed alert_text="لقد بحثت عن خدمة غير موجودة" />
                 )}
         <div className='search-container'>
-                <input type='text' value={searchTerm} onChange={handleSearch} placeholder='ابحث عن خدمة'/>
+              <input type='text' value={searchTerm} onChange={handleSearch} placeholder='ابحث عن خدمة'/>
             </div>
 
         <div className='services-div'>

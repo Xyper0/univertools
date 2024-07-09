@@ -9,7 +9,23 @@ export default function Navbar () {
 
     function HamburgerToggle () {
         document.querySelector('.navbar_li').classList.toggle("responsive-active") ;
+        setOpen(!isOpen);
     }
+
+    useEffect(() => {
+
+        const handlescroll = () => {
+            setOpen(false); 
+            document.querySelector('.navbar_li').classList.remove('responsive-active'); 
+        }
+
+        window.addEventListener('scroll' , handlescroll); 
+        return ()=> {
+            window.removeEventListener('scroll' , handlescroll)
+        }
+
+    },[])
+    
     return (
         <>
         <header className='navbar'>
