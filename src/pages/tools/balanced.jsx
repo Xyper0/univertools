@@ -1,17 +1,17 @@
 import React from "react";
-import Services from "../../components/services";
-
+import {Link} from 'react-router-dom';
 import "../../stylesheet/pagesStyle/balanced.css"; 
-import { useTranslation } from 'react-i18next';
 
 export default function Balanced() {
-    const {t} = useTranslation(); 
     return (
         <>
-        <div>
+        <div className="soon-pages">
             <h1>
-                balanced page
-            </h1>
+                قريبا
+                </h1>
+                <Link to="/">
+                <button className="home-button">الصفحة الرئيسية</button>
+                </Link>
         </div>
         </>
     );

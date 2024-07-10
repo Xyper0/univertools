@@ -41,10 +41,14 @@
 
 
 .box .box-elements a {
-    color: var(--before-font-color);
+    color: var(--icons-color-mode);
     font-family: 'almarai',sans-serif;
     font-weight: bold;
     transition:all 0.3s ease;
+}
+
+.box .box-elements a.box_text {
+    color: var(--before-font-color)!important;
 }
 
 

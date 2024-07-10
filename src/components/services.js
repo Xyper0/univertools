@@ -65,7 +65,7 @@ export default function Services () {
                     <div className='box-elements'>
                     <a>{service.icon}</a>
                     <br/>
-                    <a>{service.label}</a>
+                    <a className='box_text'>{service.label}</a>
                     </div>
                 </div>
                 </Link>  
@@ -79,7 +79,7 @@ export default function Services () {
                      <div className='box-elements'>
                      <a>{service.icon}</a>
                      <br/>
-                     <a>{service.label}</a>
+                     <a className='box_text'>{service.label}</a>
                      </div>
                  </div>
                  </Link>  

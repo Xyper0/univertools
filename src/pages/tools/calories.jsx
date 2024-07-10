@@ -1,8 +1,8 @@
 import React from "react";
-import "../../stylesheet/pagesStyle/age.css"
 import {Link} from 'react-router-dom';
+import "../../stylesheet/pagesStyle/calores.css"; 
 
-export default function Age() {
+export default function Calories() {
     return (
         <>
         <div className="soon-pages">

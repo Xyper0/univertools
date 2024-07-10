@@ -11,6 +11,7 @@
   --navbar-color:#f2f2f2;
   --hamburger-color:black;
   --secondary-color:#d3cbcb;
+  --icons-color-mode:var(--before-font-color);
 }
 
 /*
@@ -27,6 +28,7 @@
   --navbar-color:hsl(240 10% 3.9%);
   --hamburger-color:white;
   --secondary-color:hsl(240, 10%, 8%);
+  --icons-color-mode:white;
 }
 
 h1 {
@@ -108,7 +110,33 @@ code {
 }
 
 
+.home-button {
+  border:none;
+  color: var(--before-font-color);
+  border-radius: 8px;
+  font-family: 'almarai',sans-serif;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.5s ease;
+}
 
+.home-button:hover {
+  color:var(--font-color)
+
+}
+
+.soon-pages { 
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+}
+
+.soon-pages h1 {
+  font-family: 'almarai' ,sans-serif;
+  font-weight: 300;
+}
 
 .alerts {
   width: 100%;
@@ -156,3 +184,16 @@ code {
   color: var(--font-color)!important;
 }
 
+
+
+.loading-page { 
+  width: 100%;
+  height: 641px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-loading {
+  background-color:hsl(240 10% 3.9%)!important ;
+}
