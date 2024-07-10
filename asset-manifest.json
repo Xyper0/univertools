@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/univertools/static/css/main.716d8a8a.css",
-    "main.js": "/univertools/static/js/main.37facf2c.js",
+    "main.css": "/univertools/static/css/main.1f2b0342.css",
+    "main.js": "/univertools/static/js/main.bb7df7cc.js",
     "index.html": "/univertools/index.html",
-    "main.716d8a8a.css.map": "/univertools/static/css/main.716d8a8a.css.map",
-    "main.37facf2c.js.map": "/univertools/static/js/main.37facf2c.js.map"
+    "main.1f2b0342.css.map": "/univertools/static/css/main.1f2b0342.css.map",
+    "main.bb7df7cc.js.map": "/univertools/static/js/main.bb7df7cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.716d8a8a.css",
-    "static/js/main.37facf2c.js"
+    "static/css/main.1f2b0342.css",
+    "static/js/main.bb7df7cc.js"
   ]
 }
