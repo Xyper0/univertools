@@ -50,8 +50,9 @@ function App() {
     <>
     <Route path="*" element={<Error404/>}/>
     <Route  index element={<Main/>} exact path="/"/>
-    <Route  exact element={<Main/>} path="univertools/tools/home"/>
+    <Route exact element={<Main/>} path="univertools/tools/home"/>
     <Route exact  element={<Balanced/>} path="univertools/tools/balanced"/>
+    <Route exact  element={<Balanced/>} path="tools/balanced"/>
     <Route exact element={<Age/>} path="univertools/tools/age"/> 
     <Route exact element={<Calores/>} path="univertools/tools/calories"/> 
     <Route exact element={<Codes/>} path="univertools/tools/qrcode"/> 
@@ -60,7 +61,6 @@ function App() {
     <Route exact element={<TwoDates/>} path="univertools/tools/two-dates"/> 
     <Route exact element={<FileConvert/>} path="univertools/tools/file-convert"/>
     <Route exact element={<Main/>} path="univertools"/> 
- 
     </>
 </Routes>
 </BrowserRouter> 

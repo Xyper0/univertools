@@ -8,8 +8,8 @@ export default function Error404() {
 
     return (
         <>
-        <div className="hero_section">
-            <div className="main_page">
+        <div className="error404_div">
+            <div className="error404_div_s">
               <div className="error404">
                 <h1>تعذر الحصول على هذه الصفحة</h1>
                 <p>لقد اخترت صفحة غير موجودة! للعودة الى الصفحة الرئيسية اضغط الزر ادناه</p>

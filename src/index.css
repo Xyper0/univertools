@@ -77,6 +77,19 @@ code {
 
 /*Error 404 style */
 
+
+.error404_div {
+  background-color: var(--bg-color);
+  height:400px;
+
+}
+
+.error404_div_s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
 .error404 {
   text-align: center;
 }
@@ -196,4 +209,23 @@ code {
 
 .dark-loading {
   background-color:hsl(240 10% 3.9%)!important ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
